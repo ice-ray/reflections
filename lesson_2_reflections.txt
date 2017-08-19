@@ -4,3 +4,13 @@ The hidden directory ".git" gets created. I need to do it for git, so it can sta
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Working directory contains all our files. Repository contains all our commits (if any). Staging area is a transition environment where we put the file(s)/changes we want to commit. 
+
+
+git diff (between working directory and staging area)
+git diff --staged (between staging area and the most recent commit of repository)
+git diff oldCommit recentCommit
+git reset --hard
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+By comparing the differences between file(s) from stage area and the most recent commit using the command "git diff --staged". All the differences found should be a part of one logical change.
