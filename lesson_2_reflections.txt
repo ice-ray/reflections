@@ -14,3 +14,7 @@ git reset --hard
 
 How can you use the staging area to make sure you have one commit per logical change?
 By comparing the differences between file(s) from stage area and the most recent commit using the command "git diff --staged". All the differences found should be a part of one logical change.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When I want to experiment with something. The history will be organized.
