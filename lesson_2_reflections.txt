@@ -26,3 +26,7 @@ By showing the intersection points/commits of different branches with the master
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 One branch is merged into the branch you have checkout. Because it is easy to see the merging point/commit and the branches before it.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: saves time and effort. When merging manually, you/developer spends time and effort to analyze and come up with a good solution.
