@@ -9,3 +9,6 @@ Branches exist within one repository. Forks and clones each represent copies of 
 If there is a repository on GitHub that I am interested to work on, but I don't want to change the original repository, and I have an account on GitHub, then I can fork that repository.
 If I want to experiment with my new repository, without affecting the official version from the GitHub, I would clone it to my computer.
 If I want to add a new feature to my project/repository, I would create a new branch. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+In case if we'll be offline for some time, like in an airplane, we'll have the copy of the most up-to-date state of the remote stored locally, and the changes we'll make to the project will be more incremental than cumulative.
