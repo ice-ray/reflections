@@ -15,3 +15,6 @@ In case if we'll be offline for some time, like in an airplane, we'll have the c
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Through directories/files version system. It seems that many things will just get harder. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When I want to experiment on something, add a new feature. Making changes on a separate branch is more secure when you are experimenting. However, making changes on master is quicker and reasonable when they are small.
