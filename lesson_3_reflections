@@ -12,3 +12,6 @@ If I want to add a new feature to my project/repository, I would create a new br
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 In case if we'll be offline for some time, like in an airplane, we'll have the copy of the most up-to-date state of the remote stored locally, and the changes we'll make to the project will be more incremental than cumulative.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Through directories/files version system. It seems that many things will just get harder. 
